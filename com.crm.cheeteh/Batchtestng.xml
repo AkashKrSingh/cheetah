@@ -7,6 +7,9 @@
       <class name="com.crm.cheeteh.SampleTest"/>
       <class name="com.crm.cheeteh.CreateContactTest"/>
       <class name="com.crm.cheeteh.Samle1Test"/>
+       <class name="com.crm.cheeteh.VtigerTest"/>
+      
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
