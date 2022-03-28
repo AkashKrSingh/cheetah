@@ -49,6 +49,8 @@ public class Vtiger {
 	act.moveToElement(administrator).perform();
 		driver.findElement(By.linkText("Sign Out")).click();
 		
+		
+		
 	}
 }
 
