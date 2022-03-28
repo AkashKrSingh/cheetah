@@ -11,15 +11,20 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class VtigerTest {
-	WebDriver driver=null;
+	
 	@Test
 	public void paramertes() throws Throwable
 	{
+		WebDriver driver=null;
 		
 		  String BROWSER=System.getProperty("browser");
 		  String  URl=System.getProperty("url");
 		  String USERNAME=System.getProperty("username"); 
 		  String PASSWORD=System.getProperty("password");
+//		  System.out.println(BROWSER);
+//		  System.out.println(URl);
+//		  System.out.println(USERNAME);
+//		  System.out.println(PASSWORD);
 		 
 		
 	if  ( BROWSER.equals("chrome")) {
