@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Vtiger {
+public class VtigerTest {
 	WebDriver driver=null;
 	@Test
 	public void paramertes() throws Throwable
